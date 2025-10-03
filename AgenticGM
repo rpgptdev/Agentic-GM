@@ -1,0 +1,118 @@
+from typing import TypedDict, List, Dict, Annotated
+from operator import add
+from langgraph.graph import StateGraph, END
+from langchain_core.messages import HumanMessage
+from langchain_core.prompts import ChatPromptTemplate
+
+# === PLACEHOLDER CONFIG ===
+LLM_MODEL = "XXX"  # e.g., gpt-4, llama3, mistral
+RAG_VECTOR_DB = "XXX"  # e.g., faiss, chroma, milvus
+
+# === State Definition ===
+class GameState(TypedDict):
+    user_message: str
+    query: str
+    next: str
+    inventory: Dict[str, int]
+    lore: str
+    history: Annotated[List[str], add]  # Will append, not replace
+    dice_roll: int
+    story: str
+    output: str
+
+# === Define Tools ===
+class RandomizerTool:
+    def roll(self, sides=20):
+        import random
+        return random.randint(1, sides)
+
+randomizer = RandomizerTool()
+
+# === Define Agents as Functions ===
+
+def orchestrator(state: GameState):
+    """Decides which agent to call next based on state."""
+    return {"next": "historian"}
+
+def quartermaster(state: GameState):
+    """Manages inventory and state."""
+    inventory = state.get("inventory", {})
+    inventory["gold"] = inventory.get("gold", 0) + 10
+    return {"inventory": inventory}
+
+def historian(state: GameState):
+    """Fetches lore from RAG retriever."""
+    query = state.get("query", "")
+    lore = f"[RAG:{RAG_VECTOR_DB}] Retrieved lore for query: {query}"
+    return {"lore": lore}
+
+def journal(state: GameState):
+    """Tracks prior conversation."""
+    history = state.get("history", [])
+    history.append(state.get("user_message", ""))
+    return {"history": history}
+
+def gambler(state: GameState):
+    """Controls random outcomes."""
+    roll = randomizer.roll(20)
+    return {"dice_roll": roll}
+
+def storyteller(state: GameState):
+    """Generates narrative text from inputs."""
+    lore = state.get("lore", "")
+    roll = state.get("dice_roll", 0)
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", "You are a fantasy storyteller."),
+        ("user", f"Lore: {lore}\nDice Roll: {roll}\nWrite the next story segment.")
+    ])
+    story_text = f"[LLM:{LLM_MODEL}] Generated story with roll {roll} and lore."
+    return {"story": story_text}
+
+def gm(state: GameState):
+    """Final assembly of outputs."""
+    return {
+        "output": f"GM Narration:\n{state.get('story', '')}\nInventory: {state.get('inventory', {})}"
+    }
+
+# === Build LangGraph ===
+graph = StateGraph(GameState)
+
+# Register agent nodes
+graph.add_node("orchestrator", orchestrator)
+graph.add_node("quartermaster", quartermaster)
+graph.add_node("historian", historian)
+graph.add_node("journal", journal)
+graph.add_node("gambler", gambler)
+graph.add_node("storyteller", storyteller)
+graph.add_node("gm", gm)
+
+# Define edges (simple linear flow for now)
+graph.add_edge("orchestrator", "quartermaster")
+graph.add_edge("quartermaster", "historian")
+graph.add_edge("historian", "journal")
+graph.add_edge("journal", "gambler")
+graph.add_edge("gambler", "storyteller")
+graph.add_edge("storyteller", "gm")
+graph.add_edge("gm", END)
+
+# Set entry point
+graph.set_entry_point("orchestrator")
+
+# === Compile Graph ===
+app = graph.compile()
+
+# === Example Run ===
+initial_state: GameState = {
+    "user_message": "The party explores the ancient ruins.",
+    "query": "ancient ruins",
+    "next": "",
+    "inventory": {},
+    "lore": "",
+    "history": [],
+    "dice_roll": 0,
+    "story": "",
+    "output": ""
+}
+
+final_state = app.run(initial_state)
+print(final_state["output"])
