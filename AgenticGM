@@ -1,12 +1,18 @@
 from typing import TypedDict, List, Dict, Annotated
+from pathlib import Path
 from operator import add
 from langgraph.graph import StateGraph, END
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.embeddings.fake import FakeEmbeddings
+from langchain_community.vectorstores import FAISS
 
 # === PLACEHOLDER CONFIG ===
 LLM_MODEL = "XXX"  # e.g., gpt-4, llama3, mistral
-RAG_VECTOR_DB = "XXX"  # e.g., faiss, chroma, milvus
+# RAG_VECTOR_DB = "XXX"  # e.g., faiss, chroma, milvus
+LORE_FILE = Path("LORE.txt")
+_TEXT_SPLITTER = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 
 # === State Definition ===
 class GameState(TypedDict):
@@ -41,16 +47,40 @@ def quartermaster(state: GameState):
     return {"inventory": inventory}
 
 def historian(state: GameState):
-    """Fetches lore from RAG retriever."""
-    query = state.get("query", "")
-    lore = f"[RAG:{RAG_VECTOR_DB}] Retrieved lore for query: {query}"
-    return {"lore": lore}
+    """Fetches lore using an ephemeral embedding built from LORE.txt."""
+    query = state.get("query", "").strip()
+    # Legacy vector DB flow retained for reference (commented out per request):
+    # lore = f"[RAG:{RAG_VECTOR_DB}] Retrieved lore for query: {query}"
+    # return {"lore": lore}
+
+    if not LORE_FILE.exists():
+        return {"lore": "Lore source file (LORE.txt) is missing."}
+
+    raw_lore = LORE_FILE.read_text(encoding="utf-8").strip()
+    if not raw_lore:
+        return {"lore": "Lore source file (LORE.txt) is empty."}
+
+    lore_chunks = [chunk.strip() for chunk in _TEXT_SPLITTER.split_text(raw_lore) if chunk.strip()]
+    if not lore_chunks:
+        return {"lore": "Unable to process lore from LORE.txt."}
+
+    embeddings = FakeEmbeddings(size=1536)
+    # lore = f"[RAG:{RAG_VECTOR_DB}] Retrieved lore for query: {query}"
+    vector_store = FAISS.from_texts(lore_chunks, embeddings)
+
+    if not query:
+        selected_chunks = lore_chunks[:1]
+    else:
+        results = vector_store.similarity_search(query, k=min(3, len(lore_chunks)))
+        selected_chunks = [doc.page_content for doc in results] or lore_chunks[:1]
+
+    combined_lore = "\n\n".join(selected_chunks)
+    return {"lore": combined_lore}
 
 def journal(state: GameState):
     """Tracks prior conversation."""
-    history = state.get("history", [])
-    history.append(state.get("user_message", ""))
-    return {"history": history}
+    message = state.get("user_message", "")
+    return {"history": [message]}
 
 def gambler(state: GameState):
     """Controls random outcomes."""
