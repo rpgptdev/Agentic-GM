@@ -48,9 +48,8 @@ def historian(state: GameState):
 
 def journal(state: GameState):
     """Tracks prior conversation."""
-    history = state.get("history", [])
-    history.append(state.get("user_message", ""))
-    return {"history": history}
+    message = state.get("user_message", "")
+    return {"history": [message]}
 
 def gambler(state: GameState):
     """Controls random outcomes."""
