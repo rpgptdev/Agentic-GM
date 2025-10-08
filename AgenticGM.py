@@ -1,13 +1,15 @@
 # agentic_gm_spoke_wheel.py
-from typing import TypedDict, List, Dict, Annotated, Optional
+import math
+import re
+from typing import TypedDict, List, Dict, Annotated, Optional, Callable
 from pathlib import Path
 from operator import add
 
 from langgraph.graph import StateGraph, END
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings.fake import FakeEmbeddings
 from langchain_community.vectorstores import FAISS
+from langchain_core.embeddings import Embeddings
 
 # =========================
 # Config & helpers
@@ -16,6 +18,63 @@ LLM_MODEL = "XXX"          # placeholder
 LORE_FILE = Path("LORE.txt")
 _TEXT_SPLITTER = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 N_TURNS = 3  # hard cap for the GM <-> Storyteller loop
+
+
+class HashingEmbeddings(Embeddings):
+    """Deterministic, lightweight embeddings using hashed token counts."""
+
+    def __init__(self, dimension: int = 256):
+        self.dimension = dimension
+
+    def _tokenize(self, text: str) -> List[str]:
+        return re.findall(r"\w+", text.lower())
+
+    def _embed(self, text: str) -> List[float]:
+        vec = [0.0] * self.dimension
+        for token in self._tokenize(text):
+            idx = hash(token) % self.dimension
+            vec[idx] += 1.0
+        norm = math.sqrt(sum(v * v for v in vec)) or 1.0
+        return [v / norm for v in vec]
+
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        return [self._embed(text) for text in texts]
+
+    def embed_query(self, text: str) -> List[float]:
+        return self._embed(text)
+
+
+_embeddings_factory: Optional[Callable[[], Embeddings]] = None
+_cached_embeddings: Optional[Embeddings] = None
+
+
+def set_embeddings_factory(factory: Optional[Callable[[], Embeddings]]) -> None:
+    """Configure a factory used to construct embeddings for lore retrieval."""
+
+    global _embeddings_factory, _cached_embeddings
+    _embeddings_factory = factory
+    _cached_embeddings = None
+
+
+def _create_default_embeddings() -> Embeddings:
+    try:
+        from langchain_openai import OpenAIEmbeddings
+
+        return OpenAIEmbeddings()
+    except Exception:
+        return HashingEmbeddings()
+
+
+def _get_embeddings() -> Embeddings:
+    global _cached_embeddings
+
+    if _embeddings_factory is not None:
+        return _embeddings_factory()
+
+    if _cached_embeddings is None:
+        _cached_embeddings = _create_default_embeddings()
+
+    return _cached_embeddings
 
 def is_risky(state) -> bool:
     q = (state.get("query") or "").lower()
@@ -79,7 +138,7 @@ def historian(state: GameState):
     if not chunks:
         return {"lore": ""}
 
-    embeddings = FakeEmbeddings(size=1536)
+    embeddings = _get_embeddings()
     vs = FAISS.from_texts(chunks, embeddings)
 
     query = (state.get("query") or "").strip()
