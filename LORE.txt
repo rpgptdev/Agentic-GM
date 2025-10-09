@@ -1,5 +1,276 @@
-The Crystal of Dawn was forged from the first sunrise after the Shattering. Its light can cure shadow-blight when held above the afflicted heart at dawn.
+#rpg_geosocial
+## COUNTRIES
+- **Kinketsu-koku** | Japan-inspired | Geographic: Lake-rich, many rivers, fertile lowlands | Government: Hierarchical noble democracy, only nobles may vote. Nobility divided into three ranks: Shinden (High Nobility), Kanrei (Middle Nobility), Hōnin (Lower Nobility). Highest sovereign is the Ōza (Grand Seat), elected from Shinden.
+- **Tonglian** | China-inspired | Geographic: Northern arid steppes, southern fertile basin along the Shuilong River ("River of the Water Dragon") | Government: Militaristic federation of warring states. Ruled by generals/warlords, strongest are seated in the Jiǔ Shì Táng (Hall of Nine Powers).
+- **Gungtong** | Korea-inspired | Geographic: Jagged cliffs, hills, impassable ridges; heavy reliance on ships | Government: Absolute king with subordinate chieftains. Known for mercenary tradition: warrior companies called Hwaryeongdan (Flame Companies), who sell allegiance to keep balance of power between neighbors.
+- **Asap Naga** | Malay-inspired | Geographic: Archipelago stretching north forests to southern jungles. Dominates trade straits. | Government: Maritime confederacy of naval clans. Strongest navy, minimal army. Neutral power, sustains influence through five great trading guilds: Kalipon (Filipino), Sundira (Indonesian), Melayu’an (Malay/Singaporean), Ayutara (Thai), Veylong (Viet).
+## POLITICAL ALLIANCE
+- Fluid alliances. Kinketsu-koku and Tonglian share contested borders and waters, frequent clashes but not outright war.
+- Gungtong’s mercenaries sell their strength to both sides to prevent hegemony.
+- Asap Naga trades with all, profiting from others’ rivalries.
+## GEOGRAPHIC FEATURES
+- **Pulau Seribu Api** (“Isles of a Thousand Flames”) | Island chain of Asap Naga, stretching north to south. Northern islands dense with forests, southernmost covered in steaming jungles. Core of naval and trading guild power.  
+- **Daesan** (대산, “Great Mountain”) | The great island of Gungtong. Defined by jagged cliffs, steep ridges, and natural barriers. Inland travel is nearly impossible, forcing reliance on ships for trade and war.  
+- **Shinkai Zhou** (深海州, “Deep Sea Continent”) | Continent holding Kinketsu-koku and Tonglian. Western side marked by lakes and rivers of Kinketsu-koku, eastern half dominated by Tonglian’s arid north and fertile southern basin. Divided by the Ryūgǔ Lóngkotsu mountains.  
+### Relative Locations
+- **Shinkai Zhou** lies in the north, spanning west to east. Kinketsu-koku in the west, Tonglian in the east, their contested mountains in between.  
+- **Daesan** lies to the south, projecting between seas and straits, a natural wedge between continent and archipelago.  
+- **Pulau Seribu Api** lies southeast, scattered islands forming the Asap Naga confederacy. Control of the straits gives them dominance over maritime trade routes.  
+---
+#rpg_spirituals
+## ANCESTOR_WORSHIP
+- **Tonglian** | Zhànxiān Lǐ (戰先禮, “Rites of the Battle Ancestors”) | Ancestors honored through duels, competitions, and martial displays. Victory is seen as homage to lineage.  
+- **Asap Naga** | Pelayaran Api (“Voyage of Fire”) | Ancestors honored by burning boats filled with offerings and prayers, set adrift upon the sea.  
+## NATURE_WORSHIP
+- **Kinketsu-koku & Tonglian** | Shizenkami Dao (自然神道, “Way of the Nature Spirits”) | Blended faith of nature veneration. Sacred sites include mountains, lakes, forests.  
+- **Priesthood:** Sōfushi (僧巫師, “Monk-Druids”), who combine monastic order and hermitic practice. They mediate weather, seasons, and natural balance.  
+## KING_WORSHIP
+- **Gungtong** | Cheon’gwon’gyo (천권교, “Teaching of Heavenly Authority”) | State religion venerating the king as demi-god.  
+- **Priesthood:** Ministers of state act as priest-officials, enacting royal rituals and upholding reverence for the king.  
+## RELIGIOUS_RELATIONS
+- No major conflicts between spiritualities. Absence of central divine figures (except the Gungtong king) prevents schisms or wars. Traditions often overlap through trade and cultural contact.  
 
-Legends say the Whispering Catacombs beneath Mirewatch keep records of every hero who fell defending the realm. Only those who speak their true name aloud may pass unharmed.
+#rpg_races
+## HUMANS
+- Description: Generic human populations are present across all four kingdoms. Adaptable, diverse in culture, politics, and professions.  
+- Location: Found in every kingdom, most numerous overall.  
+## AMPHIBIOUS (Bipedal Amphibious Merfolk)
+- Description: Attractive humanoid Bipedal Amphibious Merfolk with patches of scales and aquatic features. Skilled in arts, trade, and communication.  
+- Subraces:  
+  - **Shirogane no Mizuhito** (銀の水人, “Silver Water People”) | Found in the deep lakes and rivers of Kinketsu-koku. Silver scale patches along arms and shoulders. Known as artisans, producing lacquerware, glass, and water-driven mechanical devices. Highly respected in noble courts for craftsmanship.  
+  - **Emas Lautan** (“Gold of the Sea”) | Found in coastal regions and archipelago straits of Asap Naga. Golden scale patches on face and torso. Renowned as merchants, navigators, and swift messengers. Their guild ties allow them to serve as intermediaries between rival clans and nations.  
+## ONI-KIN
+- Description: Large, giant-like people averaging seven feet tall. Inspired by oni myths but without horns. Possess patches of rocky, stone-like skin. Extremely strong and durable.  
+- Subraces:  
+  - **Seokgwi** (석귀, “Stone Spirits”) | Native to Gungtong’s cliffs and crags. Skin patches resemble dark granite. Often join mercenary companies (Hwaryeongdan), prized as heavy infantry and shock troops. Culturally pragmatic, valuing contracts and clan loyalty.  
+  - **Iwayama** (岩山, “Rock Mountain”) | Inhabit high plateaus of the Ryūgǔ Lóngkotsu range. Skin patches lighter, sandstone or slate tones. More isolationist, wary of wars. Maintain fortified plateau communities, focusing on self-sufficiency and ancestral tradition.  
+## CROSSBREEDING
+- All species can intermix, though pairings outside of humans are rare. Oni-Bipedal Amphibious Merfolk unions are extremely uncommon due to geographical and cultural divides.  
+---
+#rpg_techs
+## METALLURGY & MATERIALS
+- **Iron:** Incredibly rare, effectively absent from tech or economy. Considered mythical in quality.  
+- **Bronze, Copper, Tin:** Foundation of all metallurgy. Every nation produces weapons and armor, but specialization differs by geography and culture.  
+- **Design Aesthetic:** Steampunk is a matter of style—bronze and copper casings, ornate gearwork, burnished surfaces—rather than complex machinery. No full automatons exist; mechanisms remain early Renaissance level.  
+## TONG LIAN (China-inspired)
+- **Invention:** Created a gunpowder-like substance called **Huǒfěn** (火粉, “Fire Powder”). Initially unstable, more ritual than practical.  
+- **Specializations:**  
+  - Agriculture machinery and semi-automated planting/harvesting tools.  
+  - **Jīnlú** (金輪, “Golden Wheels”): Tonglian’s name for their early “clockwork” mechanisms, using bronze gears and weighted balances.  
+  - Complicated siege engines and repeating crossbows like the **Chongnu** (重弩).  
+  - Primitive steam engines exist as curiosities—often in noble workshops, not practical industry.  
+## GUNG TONG (Korea-inspired)
+- **Discovery:** Perfected the **Huǒfěn** ratio, making it viable for warfare.  
+- **Specializations:**  
+  - Gunpowder-based weaponry: bronze-lined bamboo muskets, single-use rockets, and the **Hwacha** (火車, “Fire Wagon”).  
+  - Exporters of weaponry; their mercenary companies arm themselves with their own advanced designs.  
+  - Renowned for precise machining of firing mechanisms and intricate trigger systems.  
+## KINKETSU-KOKU (Japan-inspired)
+- **Specializations:**  
+  - Metallurgy: Thin bronze alloys of extreme durability, reserved for nobility and military elites. Famous for elegant swords and dense armor.  
+  - Glasswork: Rivers and lakes provide unusually pure sand, producing high-quality glass. Used in spectacles, goggles, and scientific instruments.  
+  - Hybrid Crafting: Zealously guarded traditions within noble houses blend glass with lacquer, ceramics, and wood to create unique goods (e.g., composite goggles, ceremonial glass-lacquer armor plating).  
+  - Decorative arts: Export of ceramics, lacquerware, and refined tools reinforces their cultural prestige.  
+## ASAP NAGA (Malay-inspired)
+- **Specializations:**  
+  - Naval Power: Mastery of shipbuilding.  
+    - Everyday vessels: Multi-mast **Vinta-kora** (hybrid of vinta and outrigger catamaran). Fast, shallow-draft, ideal for inter-island trade.  
+    - Warships: **Kura-kapal** (“Turtle Ships”), plated with overlapping bronze-studded panels for defense, slow but nearly unsinkable in coastal waters.  
+  - Material Industries: Focus on spice drying, food preservation, and efficient storage for trade.  
+  - Logistics: Renaissance-level organization of warehouses, ports, and trade routes. Their navy acts as the spine of their confederacy.  
+## INDUSTRY LEVEL
+- Comparable to early Renaissance Europe. Skilled artisans and engineers exist, but large-scale automation and industrialization are absent. Mechanics remain craft-based and localized.  
+- Each nation’s specialization reflects resource availability and political culture.  
+---
+#rpg_economy
+## GENERAL
+- All nations have merchants, but the Asap Naga trading guilds dominate interregional commerce.  
+- Iron: Scarce and absent from most economies. Copper and bronze define metallurgy and trade.  
+- Currency: Silver coins (half-ounce) minted by each kingdom with unique designs and varying purity. Gold is prized for jewelry, ornamentation, and high crafts, not currency.  
+- Kinketsu-koku and Tonglian: Trade between them is limited due to frequent border skirmishes.  
+## ASAP NAGA
+- Core of the regional trade system. Their neutrality and geography give them the largest distribution network.  
+- **Exports & Goods:** Spices (pepper, nutmeg, cinnamon), dried fish, preserved fruits, rare hardwoods, resins, pearls, jungle herbs, lacquer oils, and textiles.  
+- **Financial Services:** Nascent lending and warehousing, operated by guilds. Limited compared to modern banking, but influential.  
+## GUNGTONG
+- Rugged terrain restricts agriculture, so weapons and mercenary services form the basis of the economy.  
+- **Exports & Goods:** Bronze-lined muskets, single-use rockets, hwacha carts, heavy shields, and mercenary contracts.  
+- Mercenary companies act as “war merchants,” but royal decree restricts export to last-generation weapons, ensuring the king’s monopoly on cutting-edge arms.  
+- Imports: Grain, fruits, and rice to support the population.  
+## KINKETSU-KOKU
+- Economy centered on crafts and artistry, tightly controlled by noble houses. Internal trade is sustained by the river system; external trade limited.  
+- **Exports & Goods:** Bronze swords and armor, spectacles and goggles (glass-lacquer hybrids), lacquerware, ceramics, glass ceramics, paper lanterns, and fine textiles.  
+- Self-sufficient in food production thanks to rivers and lakes.  
+## TONGLIAN
+- Economy built on regional balance: arid north provides meats, hides, and base metals; fertile south is the breadbasket of the continent.  
+- **Exports & Goods:** Rice, wheat, preserved meats, bronze gear-driven mechanisms, chongnu repeating crossbows, siege devices, and farming automata.  
+- Trade abroad emphasizes surplus agriculture and intricate gearwork devices.
+---
+#rpg_creatures
+## Dragon Serpent (Asap Naga & Tonglian Versions)
+### Laut Serpihan (Asap Naga)
+- Physical Description: A massive, elongated serpent with bioluminescent patches along its spine, gliding through the deep, dark oceans. Its body is a sleek blue with iridescent scales that shimmer like moonlight on water. It has large fins that help it maneuver swiftly in currents, and its eyes glow faintly with a soft, hypnotic green. | Behavior: Predatory and territorial, these serpents are both feared and revered by the people of Asap Naga. They rarely surface, instead haunting the abyssal depths of the ocean. They can generate loud, rhythmic sounds that can disorient prey before striking. | Habitat: Lives in the deep ocean trenches and submerged caves of the Asap Naga archipelago. Prefers dark, colder waters far from the coastline.
+### Huǒlóng (Tonglian)
+- Physical Description: A towering, rugged serpent-like creature, covered in rough, heat-absorbing, amber-colored scales. Its body is massive, with a long tail and spiny ridges along its back. The scales often radiate heat, making the serpent appear to glow in the arid desert sun. | Behavior: These serpents are territorial and ruthless predators, often using the environment to their advantage by burrowing into the earth to rest and ambush prey. They can withstand extreme heat and are known for their ability to move across the desert dunes silently. | Habitat: Found in the harsh northern deserts of Tonglian, near the arid steppes and valleys, often hidden beneath the sand.
+## Kappa-like Creature (Kinketsu-koku)
+### Kawa-Mon
+- Physical Description: A humanoid amphibian with a shell-like plate on its back, resembling a turtle. It has dark green scales, webbed hands and feet, and a long, sinewy tail. Its most notable feature is the water-filled depression atop its head, which gives it immense strength as long as the water remains in place. | Behavior: The Kawa-Mon is mischievous and territorial but rarely aggressive unless provoked. It enjoys tricking humans, often dragging them into the water with its tail or leading them off paths into deep river pools. It is a solitary creature that is deeply connected to rivers and lakes. | Habitat: Found in riverbeds, lake shores, and marshes of Kinketsu-koku, especially in the deep, clear lakes that are abundant in the kingdom.
+## Multi-Tailed Wolf Variants (Mountainous Regions and Gungtong Island)
+### Okami-Nami (Kinketsu-koku)
+- Physical Description: A large, powerful wolf with long fur that ripples like waves in the wind. Its fur is a mix of silver and dark grey, and it has five long tails, each moving independently. The Okami-Nami has sharp, angular features and glowing blue eyes that seem to pierce through the night. | Behavior: The Okami-Nami is a guardian of the mountain passes, roaming the highlands and protecting sacred shrines. It is a solitary creature, hunting in the night and revered by the people of Kinketsu-koku for its power and wisdom. | Habitat: Found in the high-altitude mountainous regions of Kinketsu-koku, particularly around sacred shrines and uncharted valleys.
+### Cheonghyeok (Gungtong)
+- Physical Description: This wolf is massive, with fur in shades of light brown and grey. Its six tails are extremely long and whip-like, covered in thick fur with a hint of bronze. The Cheonghyeok has a proud, noble posture and piercing amber eyes. | Behavior: The Cheonghyeok is both revered and feared on Gungtong island. Known for its intelligence and cunning, it is often seen in the cliffs of the island as a protector. It rarely engages in conflict unless threatened, often relying on its speed and wit to avoid battles. | Habitat: Found along the steep cliffs and plateaus of Gungtong island, often in caves or near sacred sites.
+## Roc/Garuda-like Eagle (Gungtong Cliffs & High Altitudes)
+### Seongnyeo
+- Physical Description: A colossal eagle with a wingspan that stretches up to 25 feet, feathers of deep bronze and gold, reflecting sunlight as it soars through the sky. Its beak is sharp and curved, and its talons are as large as a man’s arm. | Behavior: The Seongnyeo is a solitary predator, known for its endurance in the high altitudes. It can live for centuries, hunting only once or twice a year. It preys on large mammals and smaller creatures that venture too close to its nesting sites. | Habitat: Found in the high cliffs and rocky crags of Gungtong, particularly in the isolated peaks. Occasionally spotted near the high plateaus of Ryūgǔ Lóngkotsu.
+## Rainbow-Colored Fish (Asap Naga & Kinketsu-koku Versions)
+### Pelōr (Asap Naga)
+- Physical Description: A vibrant, multi-colored fish with a long, serpentine body covered in scales that reflect every color of the rainbow. It has large, luminous eyes and a shimmering, flowing tail that undulates like silk in the water. | Behavior: The Pelōr is considered a symbol of luck and prosperity in Asap Naga. It is a peaceful creature, rarely engaging with anything outside its natural habitat. The Pelōr is often seen near deep-sea caves and coral reefs. | Habitat: Found in the deep-sea trenches off the coast of Asap Naga, near coral reefs and underwater caves.
+### Hōōyama (Kinketsu-koku)
+- Physical Description: Smaller than its ocean counterpart but just as dazzling, the Hōōyama is found in the clear, freshwaters of Kinketsu-koku. Its scales shimmer in shades of purple, gold, and silver, creating a spectacle whenever it swims near the surface. | Behavior: Thought to bring good fortune to those who see it, the Hōōyama is often associated with the kingdom’s nobility and is a symbol of both prosperity and purity. It is often spotted in riverbeds and lakes, particularly during spring and summer. | Habitat: Found in the deep, tranquil lakes and rivers of Kinketsu-koku, often near spiritual and sacred sites.
+## Ox-like Creature (Tonglian Plains)
+### Yíxiàng (义象, “Noble Beast”)
+- Physical Description: A large, muscular ox with a thick, flowing mane like a lion’s, dark brown fur, and large hooves. Its horns are short but broad, curving gently backwards. Its eyes are surprisingly intelligent and expressive, giving it a sense of awareness that most animals lack. | Behavior: Known for its high intelligence, the Yíxiàng is highly social and communicative, often forming complex herd structures. They are known to interact with humans and are extremely difficult to tame due to their independent nature. Despite their massive size, they are fast and agile, often escaping from captivity. | Habitat: Found across the open plains of northern Tonglian, particularly in regions where the land is fertile and grasslands stretch endlessly. They prefer lowland valleys near rivers or lakes where they can graze peacefully.
 
-The Stormlit Isles are ringed by lightning-charged reefs. Navigators rely on stormglass compasses, but a phoenix feather points directly toward the hidden harbor.
+#rpg_flora
+
+## Ironwood Bamboo  
+- **Asap Naga Name:** **Kepulauan Karang** (“Island Bamboo”)  
+- **Tonglian Name:** **Hǔmù Zhú** (虎木竹, “Tiger Wood Bamboo”)  
+- **Kinketsu-koku Name:** **Kōtō Chiku** (鋼筒竹, “Steel Pipe Bamboo”)  
+- **Gungtong Name:** **Daejin Juk** (대진죽, “Great Strength Bamboo”)  
+- **Description:** This bamboo species is incredibly durable, possessing the strength and resilience of ironwood. Found throughout all regions, it’s used for a variety of purposes from piping to construction, and, when lined with bronze, it’s strong enough to serve as a framework for cannons, rocketry, or muskets. It is an essential material in many industries.  
+
+## Mushrooms  
+- **Psychedelic Mushroom (Hallucinogenic):**  
+  - **Name:** **Jìngyì Zhī Mógu** (静逸之蘑菇, “Serenity Mushroom”)  
+  - **Description:** A vivid purple and orange mushroom that grows in clusters on decayed wood, often found in sacred forests or hidden groves. It produces visions when consumed and is used in spiritual rites.  
+  - **Location:** Found in the sacred forests of Tonglian, especially near the **Shuilong River**.  
+- **Herbal Mushroom (Healing):**  
+  - **Name:** **Míngxiāo Gān Mógu** (明晓甘蘑菇, “Dawn’s Sweet Mushroom”)  
+  - **Description:** A pale, translucent mushroom with delicate red markings. Known for its medicinal properties, it can heal wounds, ease pain, and promote longevity when brewed in teas or poultices.  
+  - **Location:** Grows in temperate forests of Kinketsu-koku and near high-altitude lakes in Gungtong.  
+- **Food Mushroom (Edible):**  
+  - **Name:** **Shí Sèng Mógu** (食胜蘑菇, “Victory Mushroom”)  
+  - **Description:** A hearty, brown-cap mushroom, rich in flavor and used in many culinary dishes. It grows in clusters, and is a staple in diets across the kingdom, particularly in the colder northern regions.  
+  - **Location:** Found in the rich forests of Asap Naga and the jungles of Kinketsu-koku.
+## Glowing Fern  
+- **Name:** **Mingxuán Huācǎo** (冥玄花草, “Twilight Fern”)  
+- **Description:** This fern has bioluminescent fronds that glow with a soft, ethereal blue light, often lighting the jungles during the night. It is revered for its mystical qualities, and often used as a natural lantern in Asap Naga's coastal villages.  
+- **Location:** Found only in the thick, humid jungles of Asap Naga.  
+## Thorny Grass  
+- **Name:** **Tiěhuā Cǎo** (铁花草, “Ironflower Grass”)  
+- **Description:** A dangerous and prickly grass with sharp thorns that can pierce skin. While its growth is spiny, it’s a durable plant, used in defensive fortifications and natural barriers. It is often found in dry, rocky plains.  
+- **Location:** Common in the plains of northern Tonglian, especially in the territories close to the **Huǒlóng** deserts.
+## Reed (Kinketsu-koku)  
+- **Name:** **Suijin-matsu** (水神松, “Water God Reed”)  
+- **Description:** A tall reed that grows along the riverbanks, its long, thin stalks used for paper production. It yields a soft yet durable material, perfect for making fine parchment.  
+- **Location:** Found in the slow-moving, clear rivers and lakes of Kinketsu-koku.  
+## Rare Flowers (Gungtong Cliffs)  
+- **Name:** **Cheonbyeonghwa** (천병화, “Heaven’s Orchid”)  
+- **Description:** An orchid-like flower with pale blue petals that shimmer in the light. It’s rare and only blooms in the steepest, most isolated cliffs. It’s said to possess healing properties and can purify air in caves and tunnels.  
+- **Location:** Only grows in the high, rocky cliffs and remote plateaus of Gungtong.
+
+#rpg_key_people
+### **Tonglian Generals**
+1. **General Wán Lìhuā** | Human | Tall, broad-shouldered with sharp features | Tactical genius, stern, demanding | One of the Nine Generals, known for strategic mastery in battle and leadership of Tonglian’s army.
+2. **General Zhé Lìng** | Human | Medium build, short black hair, scar across face | Disciplined, calculating, and precise | A key leader in the eastern campaigns, famed for his unyielding focus and cold demeanor.
+3. **General Hóng Fēng** | Human | Slender, elegant, with golden eyes | Charismatic, persuasive, bold | Known for rallying the troops and being a master of psychological warfare.
+4. **Admiral Sūn Yáng** | Human | Tall, dark-skinned, muscular build | Proud, daring, quick-tempered | One of the Admirals of the Navy, revered for naval strategy and pushing the limits of naval warfare.
+5. **Admiral Jiǔ Shù** | Human | Broad-chested, square jaw with a grizzled beard | Ruthless, quick-thinking, authoritative | The second Admiral, infamous for daring expeditions and unorthodox tactics at sea.
+6. **General Liú Péi** | Human | Middle-aged, long grey hair, stoic expression | Quiet, wise, tactically insightful | Veteran General, often consulted for major decision-making, with deep knowledge of the land-based warfare.
+7. **General Shí Jīng** | Human | Lean, athletic, agile | Calculating, strategic, empathetic | Known for her mastery in guerrilla warfare and her influence in the northern territories.
+8. **General Zhū Lín** | Human | Stocky, heavily scarred | Aggressive, impulsive, passionate | Renowned for his brutal yet effective tactics during border skirmishes.
+9. **General Yáng Qì** | Human | Tall, youthful, with soft features | Energetic, clever, decisive | A young, rising star among the generals, praised for his leadership of large-scale sieges and disciplined forces.
+### **Tonglian Bandit Lord**
+1. **Bandit Lord Guo Zhāng** | Human | Short, wiry with weathered features | Clever, ruthless, quick to act | Hides in the northern plains; notorious for raids on the borders, and as an influential outlaw leader who manipulates rival factions for personal gain.
+### **Kinketsu-koku Shinden (High Nobility)**
+1. **Shinden Kanemori Takahiro** | Human | Tall, silver-haired, with regal posture | Stoic, authoritative, calculating | The most influential figure of the Shinden, leading the noble houses in court and diplomacy.
+2. **Shinden Ayano Haruko** | Human | Slim, dark-haired, composed | Witty, sharp-tongued, political | An influential noblewoman known for her charm and intricate schemes in court politics.
+3. **Shinden Yori Katsuo** | Human | Broad, muscular, with long black hair | Proud, determined, hot-headed | The patriarch of a major house, loyal to the Ōza but distrusts the rising merchant classes.
+4. **Shinden Matsumi Rika** | Human | Petite, porcelain skin, delicate features | Gentle, wise, diplomatic | A soft-spoken diplomat whose influence spreads across noble alliances, making her key in mediations.
+5. **Shinden Arata Kiyoshi** | Human | Tall, angular face, deep-set eyes | Stoic, methodical, secretive | The strategist of the Shinden, responsible for managing the Shinden’s military forces.
+### **Kinketsu-koku Artisans**
+1. **Shirogane no Mizuhito Kin** | Amphibious (Merfolk) | Bipedal, silver scales along shoulders | Crafty, disciplined, creative | A revered artisan whose water-driven mechanical devices and lacquerware have earned high praise across noble courts.
+2. **Kinketsu’s Master of Ceramics Tetsuya** | Human | Broad hands, short dark hair | Meticulous, creative, passionate | Known for crafting intricate, artistic ceramics with spiritual significance, highly sought after by the nobility.
+3. **Kinketsu’s Master Glassblower Daiko** | Human | Tall, slender, with glasses | Innovative, ambitious, perfectionist | Famous for creating glass hybrids with lacquer, pioneering new forms of artistry in Kinketsu-koku.
+### **Asap Naga Heads of Trading Guilds**
+1. **Kalipon Guild Head – Bayu Anwar** | Human | Stocky, weathered with a beard | Charismatic, persuasive, resourceful | Oversees the largest guild in Asap Naga, dominating trade in spices and textiles.
+2. **Sundira Guild Head – Malin Surya** | Human | Slender, sharp-eyed with long black hair | Diplomatic, calculating, determined | Controls the spice routes, a savvy leader deeply involved in maintaining Asap Naga’s neutral stance in trade politics.
+3. **Melayu’an Guild Head – Dara Harun** | Human | Tall, broad, clean-shaven | Diplomatic, intelligent, cunning | A master negotiator who secures trade contracts across many nations.
+4. **Veylong Guild Head – Châu Minh** | Human | Lean, with sharply defined features | Stealthy, ambitious, driven | One of the newer guild heads, quickly rising in influence through aggressive expansion of trade routes.
+5. **Ayutara Guild Head – Panya Virote** | Human | Medium build, stern features | Calculating, authoritative, focused | A sharp businesswoman who manages strategic relations between Asap Naga and the surrounding kingdoms.
+### **Asap Naga Pirates**
+1. **Emas Lautan Pirate Captain – Fadhil Kamar** | Amphibious (Merfolk) | Bipedal, muscular, golden scales on face | Fearless, proud, vengeful | A feared pirate captain known for swift strikes and his deep knowledge of the straits, expert at navigating dangerous waters.
+2. **Pirate Captain Alif Rangga** | Human | Broad-shouldered, heavily tattooed | Ruthless, calculating, tactical | Commands a ruthless crew, known for ambushes on passing merchant vessels and hostile takeovers.
+3. **Pirate Captain Siti Barima** | Human | Tall, dark-skinned, with wild hair | Wild, aggressive, passionate | A brutal leader known for terrorizing coastal towns and utilizing guerrilla tactics against enemy forces.
+### **Gungtong Royalty and Ministers**
+1. **King Gungtong Dae-Gyeong** | Oni-Kin (Seokgwi) | Broad, imposing, with dark stone-like skin | Strong-willed, commanding, strategic | The demi-god king whose word is absolute; commands the kingdom and oversees the balance between mercenary factions.
+2. **Crowned Prince Gungtong Min-Seok** | Oni-Kin (Seokgwi) | Tall, sharp features, a crown of stone | Intellectual, calculating, ambitious | Next in line, respected for his pragmatic approach to diplomacy and internal politics.
+3. **Queen Gungtong Seung-Ji** | Oni-Kin (Seokgwi) | Elegant, long flowing hair, regal posture | Compassionate, wise, diplomatic | The motherly figure of Gungtong, known for her deft handling of royal matters and nurturing the next generation of rulers.
+4. **Minister Hwang Joo** | Oni-Kin (Seokgwi) | Tall, broad-shouldered with deep-set eyes | Rational, decisive, persuasive | A key minister in Gungtong’s political machine, responsible for foreign relations and military coordination.
+5. **Minister Bae Yun** | Oni-Kin (Seokgwi) | Slim, dark-skinned, with short hair | Shrewd, confident, loyal | Head of internal affairs, responsible for managing Gungtong’s economy and maintaining power balance.
+6. **Minister Ji Min** | Oni-Kin (Seokgwi) | Muscular, rugged features | Stern, focused, protective | Military advisor, ensuring the kingdom’s defense strategies are implemented with precision.
+### **Famous Mercenary Company Heads**
+1. **Seokgwi Mercenary Leader – Choi Il-Sun** | Oni-Kin (Seokgwi) | Huge, stone-like patches across body | Tough, pragmatic, authoritative | A legendary mercenary who leads the Hwaryeongdan, specializing in large-scale campaigns.
+2. **Gungtong Mercenary Leader – Maen Joo-Han** | Oni-Kin (Iwayama) | Muscular, battle-worn | Calculating, ruthless, strategic | Known for his sharp leadership, orchestrating powerful, successful mercenary companies on Gungtong’s behalf.
+### **Famous Shirogane no Mizuhito**
+1. **Shirogane no Mizuhito Nami** | Amphibious (Merfolk) | Bipedal, silver scales along arms | Elegant, reserved, thoughtful | A master artisan from the Shirogane clan, revered for crafting intricate lacquerware and glass designs.
+2. **Shirogane no Mizuhito Tatsu** | Amphibious (Merfolk) | Slender, long dark hair, flowing fins | Artistic, serene, perceptive | Diplomat for the Shirogane, renowned for his delicate paintings and understanding of water-based culture.
+3. **Shirogane no Mizuhito Hira** | Amphibious (Merfolk) | Average height, dark green scales | Inventive, calm, intelligent | A mechanical engineer and artisan, credited for creating water-powered tools that revolutionized Shirogane craftsmanship.
+### **Famous Emas Lautan**
+1. **Emas Lautan General Hakim** | Amphibious (Merfolk) | Tall, golden scales on face and torso | Fearless, loyal, charismatic | Leader of a powerful trading fleet that keeps the Asap Naga maritime routes secure from piracy.
+2. **Emas Lautan Merchant-Advisor Shahirah** | Amphibious (Merfolk) | Lean, black hair, sharp features | Calculating, eloquent, ambitious | A top negotiator in the Emas Lautan Guild, known for her ability to broker deals between hostile factions.
+3. **Emas Lautan Spy Karwan** | Amphibious (Merfolk) | Strong build, muscular, scarred | Stealthy, determined, intelligent | Operates as a spy for the Emas Lautan Guild, gathering valuable intelligence from surrounding kingdoms.
+### **Famous Seokgwi**
+1. **Seokgwi Commander Baek Hyeon** | Oni-Kin (Seokgwi) | Large, stone-like skin | Loyal, aggressive, focused | Commander of one of the most successful mercenary groups, respected across Gungtong for his military acumen.
+2. **Seokgwi Diplomat Udo Tongsu** | Oni-Kin (Seokgwi) | Lean, rugged features | Persuasive, tactful, brave | Known for his diplomatic efforts across the borderlands and his successful peace treaties.
+3. **Seokgwi Chief Engineer Seo Hyun** | Oni-Kin (Seokgwi) | Muscular, wearing intricate armor | Brilliant, methodical, perfectionist | A master engineer, specializing in creating siege weaponry and battlefield innovations.
+### **Famous Iwayama**
+1. **Iwayama Clan Head Kyojiro** | Oni-Kin (Iwayama) | Sturdy, sandstone-like patches on skin | Proud, reserved, wise | A leader of the Iwayama, holding power over the plateau and the neighboring communities.
+2. **Iwayama Warrior Kaida** | Oni-Kin (Iwayama) | Short, thick-set, sharp eyes | Fierce, proud, courageous | A master warrior, renowned for her undefeated record in one-on-one combat across Gungtong.
+3. **Iwayama Diplomat Haruto** | Oni-Kin (Iwayama) | Tall, peaceful demeanor | Calm, diplomatic, insightful | Serves as a primary diplomat, often called upon to resolve conflicts between the Gungtong and neighboring kingdoms.
+
+#rpg_history
+**Year 0**: The first Gungtong king is crowned, marking the foundation of Gungtong as a unified kingdom. Simultaneously, the birth of the Asap Naga Trading Confederacy takes place, with the founding clans forming a maritime alliance that will dominate regional trade. The first noble election in Kinketsu-koku occurs, creating a hierarchical democracy with the Shinden (High Nobility) rising as the political elite. The collapse of a previous Tonglian empire sets the stage for the Nine Generals Era, with rival factions vying for power in the wake of the empire's disintegration.
+**Year 87**: Kinketsu-koku and Tonglian engage in their first major war, a devastating conflict that results in the Seokgwi Oni migrating to Gungtong in search of refuge, shaping Gungtong’s military and political landscape for centuries to come. The war ends in a tense truce, but the seeds for future conflicts are sown.
+**Year 160**: The war between Kinketsu-koku and Tonglian officially ends. The Ryūgǔ Lóngkotsu Mountains are declared the official border, a natural barrier between the two kingdoms that will be respected by both nations for generations. The era of skirmishes gives way to uneasy peace, though tensions remain high.
+**Year 215**: The discovery of Huǒfěn (Fire Powder) revolutionizes warfare across the continent, and both Kinketsu-koku and Tonglian compete to refine its uses. Emas Lautan and Shirogane no Mizuhito are officially recognized as citizens of Asap Naga and Kinketsu-koku, respectively, as the once-insular societies begin to accept the bipedal merfolk as part of their growing empires. Their influence begins to grow, particularly in the realms of trade and artistry.
+**Year 287**: Skirmishes between Kinketsu-koku and Tonglian continue, while Tonglian makes significant strides in agricultural development. Meanwhile, the Seokgwi Oni and Iwayama are officially recognized as citizens of Gungtong and Kinketsu-koku/Tonglian, respectively, marking a significant shift toward integration. These peoples now hold a vital place within their respective nations.
+**Year 380**: Gungtong perfects the use of Huǒfěn in weaponry, marking the rise of Gungtong’s mercenaries. With their advanced gunpowder-based weaponry, Gungtong mercenaries begin to dominate the region, offering their services to the highest bidder in wars across the continent.
+**Year 420**: The Asap Naga Trading Fleet becomes a full-fledged naval fleet, bolstered by the rise of the first Great Pirate who wreaks havoc on their trade routes. In response, Asap Naga solidifies its naval dominance, cementing its role as a neutral power in the region. Kinketsu-koku undergoes a Glass and Ceramic Revolution, creating fine glassware and intricate ceramics that soon become highly prized throughout the world.
+**Year 511**: A drought in northern Tonglian forces the migration of Huǒlóng Dragons into the southern regions, ravaging the southern Tonglian territories. The destruction forces Tonglian’s leadership to focus on reconstruction, which leads to the development of new defensive technologies.
+**Year 593**: A high-profile assassination within Kinketsu-koku’s Shinden points to Tonglian agents, reigniting hostilities between the two nations. This marks the beginning of a new era of tension, as political intrigue and espionage reach new heights. The assassination sets off a wave of distrust, and noble houses rally behind their leaders in preparation for future conflict.
+**Year 654**: The Kinketsu-koku x Tonglian War 2 erupts. The conflict begins with a fierce battle for the Ryūgǔ Lóngkotsu Mountains, leading to the capture of valuable lands over the mountain range. This war sets the stage for a prolonged battle that lasts for decades.
+**Year 707**: A devastating plague, known as the Plague of Haman, strikes the lands of Kinketsu-koku and Tonglian, a byproduct of the prolonged war. Gungtong’s coastal areas are also affected due to the influx of mercenaries seeking refuge. In response, Asap Naga enforces a strict border closure policy, isolating itself from the chaos.
+**Year 740**: The war between Kinketsu-koku and Tonglian reaches a stalemate, forced to end due to the far-reaching effects of the plague. Both nations are left decimated, their populations shattered, and the economy of the region comes to a grinding halt.
+**Year 792**: The Shirogane no Mizuhito and Emas Lautan alchemists and medical researchers create a groundbreaking herbal remedy that stems the plague, saving countless lives. The Shirogane no Mizuhito are granted a place in the nobility of Kinketsu-koku in recognition of their medical contributions.
+**Year 804**: Gungtong’s King completes the unification of the island, solidifying his reign and creating a stable kingdom. This era marks the rise of Gungtong’s influence in the region as it becomes a beacon of stability. Asap Naga establishes its first Trading House outside of its territory, securing dominance over the maritime trade routes.
+**Year 890**: Gungtong mercenaries are involved in Kinketsu-koku x Tonglian skirmishes, offering their services once more. The conflict continues to simmer under the surface, but no full-scale war breaks out. Asap Naga signs an official neutrality pact with all neighboring nations, asserting its stance as a peaceful trading hub, though its merchants still maintain considerable influence.
+**Year 952**: The pirate raids of Asap Naga cities reach a fever pitch, resulting in the loss of some coastal territories. Kinketsu-koku advances in metallurgy during this period, developing stronger alloys and intricate bronze works that are exported across the continent.
+**Year 1005**: The development of Kura-kapal naval vessels, made by Asap Naga, revolutionizes their naval warfare, providing unmatched protection from pirate attacks. The Seokgwi Oni are officially allowed to join Gungtong’s mercenary ranks, further bolstering the kingdom’s military strength.
+**Year 1050**: Mechanical siege weapons development in both Tonglian and Kinketsu-koku advances significantly, with both nations turning the tides of warfare in their favor. The first Lending House of Asap Naga opens, offering financial services to the expanding trade networks. Meanwhile, Gungtong enacts “Maintain Balance of Powers” reforms, ensuring mercenaries remain a tool for diplomacy rather than uncontrolled forces of destruction.
+**Year 1071**: Current world. The balance between nations remains volatile, with Kinketsu-koku, Tonglian, Gungtong, and Asap Naga continuing to maneuver politically and militarily for influence over the surrounding lands. The foundations of diplomacy, warfare, and trade are more complex than ever, and the consequences of past events shape the actions of today's leaders.
+
+#rpg_celebrations_events
+### **Kinketsu-koku**
+1. **The Great Reeds of Spring**: Commemorates the founding of the Kinketsu-koku River Systems, which enabled prosperity and unity through their waterways. | Yearly | The event includes boat races, with elaborate reed and paper lanterns illuminating the rivers. People from all social classes gather along the riverbanks to celebrate, offering sacrifices to water spirits for good fortune.
+2. **The First Shinden Election Day**: A remembrance of the first noble election that set the hierarchical nobility system in Kinketsu-koku. | Every 7 years | A ceremonial day where the public gathers to witness the election of new nobility. During this event, a mock debate takes place where prominent nobles re-enact their ancestors' speeches, emphasizing democracy and the nobility’s duty to the people.
+3. **Voting Ceremony for the Kinketsu-koku Nobility**: Marks the periodic reevaluation of noble titles and power within the nation, a tradition that started with the first noble election. | Every 7 years | Nobles and citizens alike gather for the public vote. The event is filled with speeches, dances, and feasts, while symbolic gifts (like ceramic figurines) are exchanged between houses. The election itself takes place in a public arena, overseen by the Grand Seat, marking a moment of great public importance.
+### **Tonglian**
+1. **Zhànxiān Lǐ (Rites of the Battle Ancestors)**: Celebrates the martial history of Tonglian, where warriors honor their ancestors through displays of strength and skill. | Yearly | Throughout Tonglian, regional competitions are held in the form of duels, martial arts exhibitions, and archery contests. Families bring offerings to their ancestors' shrines, and warriors are crowned for the best performances, praised by their communities.
+2. **Harvest of the Shuilong**: A celebration of the River of the Water Dragon's contribution to Tonglian’s prosperity. | Every Harvest | The harvest is celebrated by farmers and traders who carry sacred fruits, grains, and flowers to the river. Dragon dances, ceremonial boat races, and large feasts are part of this festival, emphasizing the importance of water in agricultural success.
+3. **Global Ancestor Worship Day (Zhànxiān Lǐ)**: A sacred observance for all of Tonglian’s people, where the connection between ancestors and descendants is celebrated. | Yearly | Communities host a day of fasting, prayer, and ritual sacrifices. Public processions are held in the cities and villages, and families decorate their homes with ancestral portraits, offering food to the spirits. This event culminates in a public honoring of the greatest generals of the past.
+### **Asap Naga**
+1. **Pelayaran Api (Voyage of Fire)**: Celebrates the founding of the Asap Naga Trading Confederacy, marked by the journey of the first naval leaders. | Yearly | The confederacy’s ships sail in ceremonial fleets across the ocean, releasing burning boats filled with offerings to the ancestors and gods. People gather on the shore to sing and chant prayers, while merchants set up stalls, selling rare goods from the archipelago.
+2. **Festival of the Five Guilds**: A tribute to the five major guilds of Asap Naga, whose mercantile powers have defined the nation’s wealth and influence. | Every 5 Years | The event features a grand parade with representations of the guilds, culminating in a day of public trading competitions, where merchants barter and compete for the title of "Grandest Trader." Guild leaders give speeches, and gifts are exchanged between guilds in a show of unity.
+3. **Global Ancestor Worship Day (Pelayaran Api)**: A shared event in Asap Naga, honoring the ancestors of the archipelago through sea-bound rituals. | Yearly | Families gather to honor their ancestors on boats, where they perform dances, sing songs, and burn incense. Vessels filled with offerings are set afloat as a sign of respect. It’s a day of spiritual remembrance, with some communities hosting live music and fire dances along the coastal towns.
+### **Gungtong**
+1. **The Unification Festival**: Commemorates Gungtong King’s unification of the island and consolidation of power. | Yearly | The festival features reenactments of the unification battles and a grand feast held in the royal palace. The Gungtong people celebrate with elaborate processions and traditional dances, showcasing their culture and honoring their king's legacy.
+2. **The Stone King's Day**: Celebrates the birthday of the current Gungtong king, marking the day of his coronation. | Yearly | Citizens gather at the royal palace and city squares to present gifts, participate in the King’s Games (a series of public contests and performances), and listen to royal speeches. The day ends with a firework display over the island’s cliffs.
+3. **Oni-Kin Warrior's Day (Seokgwi)**: A celebration of the Oni-Kin, particularly the Seokgwi subrace, who have served as Gungtong’s loyal protectors. | Yearly | A ceremonial day where the Seokgwi showcase their strength through physical trials, such as stone lifting and sparring contests. Traditional oni-like dances and rituals are performed to honor the warriors, and the day concludes with feasting and storytelling of ancient oni battles.
+### **Non-Human Races**
+1. **Merfolk Festival - Emas Lautan**: Honors the deep ocean’s wisdom and the unity of the various merfolk tribes. | Yearly | The merfolk celebrate by creating intricate underwater art displays and competing in storytelling contests. The surface is decorated with shimmering shells, and luminescent sea creatures are released into the waters during a night parade. Prayers are sung for prosperity and peace on the ocean.
+2. **Oni-Kin Festival - Seokgwi**: Celebrates the strength and resilience of the Seokgwi Oni. | Yearly | In Gungtong, Seokgwi Oni gather to partake in great feats of strength and endurance, challenging themselves and others to push their limits. The day features traditional oni rituals and ends with a ceremonial feast where Oni-Kin elders share their wisdom and stories.
+3. **Iwayama’s Stone Clan Day**: Honors the isolationist Iwayama, their culture, and their revered connection to the land. | Yearly | Iwayama hold a sacred day of meditation, stone-carving, and mountain rituals to honor their ancestral ties to the high plateaus. This event is marked by silent processions and stonework exhibitions, which are followed by a feast of mountain herbs and fruits.
+4. **Shirogane no Mizuhito Heritage Day**: Celebrates the artistic mastery and innovation of the Shirogane no Mizuhito. | Yearly | The Shirogane hold a public exhibition of their finest artworks, from lacquerware to water-powered devices. This event is accompanied by performances of traditional music and dances, showcasing the unique culture of the Mizuhito, and ends with a grand feast dedicated to their ancestors’ spirits.
