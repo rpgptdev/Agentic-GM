@@ -101,6 +101,7 @@ class GameState(TypedDict):
     turn_count: int                      # increments each time GM processes a story beat
     require_qm: bool                     # GM requests a state update (e.g., item used)
     inventory_delta: Optional[Dict[str, int]]  # {item: +/−amount} to apply, then clear
+    gm_should_increment: bool            # storyteller signals whether the next GM pass advances the turn
 
     # final/aux output
     output: str
@@ -160,27 +161,47 @@ def storyteller(state: GameState):
     inv = state.get("inventory", {})
     # Stub generation (keep it deterministic for now)
     text = f"[LLM:{LLM_MODEL}] Story beat (turn={state.get('turn_count',0)}): roll={roll}, inv={inv}\nLore used: {bool(lore)}"
-    return {"story": text}
+    return {"story": text, "gm_should_increment": True}
 
 def gm(state: GameState):
     """
     - Increments turn_count
-    - Optionally sets require_qm and inventory_delta (e.g., use 1 potion)
+    - Optionally sets require_qm and inventory_delta (e.g., adjust inventory counts)
     - Decides nothing here; routing occurs via conditional edges after GM
     """
-    turn = int(state.get("turn_count", 0)) + 1
+    should_increment = bool(state.get("gm_should_increment", False))
+    current_turn = int(state.get("turn_count", 0))
+    turn = current_turn + 1 if should_increment else current_turn
 
-    # Example: if player drinks a potion in the narrative, request a decrement
-    # For demo: when dice_roll <= 5 on first loop, pretend we use a "potion"
+    # Example: if the narrative references an inventory item, request a decrement
+    # For demo: when dice_roll <= 5 on first loop, pretend the party consumes the first item
     require_qm = False
     delta = None
-    if "potion" in (state.get("query", "").lower()):
-        require_qm = True
-        delta = {"potion": -1}
-    elif turn == 1 and state.get("dice_roll", 0) <= 5:
-        # illustrative narrative side-effect
-        require_qm = True
-        delta = {"potion": -1}
+    def _usable_inventory_items() -> List[str]:
+        inventory = state.get("inventory") or {}
+        return [item for item, count in inventory.items() if count > 0]
+
+    def _item_from_query(items: List[str]) -> Optional[str]:
+        query = (state.get("query") or "").lower()
+        if not query:
+            return None
+
+        for item in items:
+            if item.lower() in query:
+                return item
+        return None
+
+    if should_increment:
+        usable_items = _usable_inventory_items()
+        selected_item = _item_from_query(usable_items)
+
+        if not selected_item and turn == 1 and state.get("dice_roll", 0) <= 5:
+            # illustrative narrative side-effect
+            selected_item = usable_items[0] if usable_items else None
+
+        if selected_item:
+            require_qm = True
+            delta = {selected_item: -1}
 
     out = (
         f"GM Narration (turn={turn}):\n"
@@ -191,7 +212,8 @@ def gm(state: GameState):
         "turn_count": turn,
         "require_qm": require_qm,
         "inventory_delta": delta,
-        "output": out
+        "output": out,
+        "gm_should_increment": False,
     }
 
 def quartermaster(state: GameState):
@@ -206,7 +228,7 @@ def quartermaster(state: GameState):
         if inv[k] <= 0:
             inv.pop(k, None)
     # Clear the delta after applying
-    return {"inventory": inv, "inventory_delta": None, "require_qm": False}
+    return {"inventory": inv, "inventory_delta": None, "require_qm": False, "gm_should_increment": False}
 
 # =========================
 # Routing functions (for conditional edges)
@@ -308,6 +330,7 @@ if __name__ == "__main__":
         "turn_count": 0,
         "require_qm": False,
         "inventory_delta": None,
+        "gm_should_increment": False,
         "output": ""
     }
     final = app.run(initial_state)
